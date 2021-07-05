@@ -9,7 +9,9 @@ const Navbar = () => {
     <div className="narbarContainer">
       <h1 className="navbarTitle">Recipe App</h1>
       <p className="navbarDetail">
-        Currently there are {recipes.length} recipes in here
+        Currently there are
+        <span>{recipes.length}</span>
+        recipes in here
       </p>
     </div>
   );

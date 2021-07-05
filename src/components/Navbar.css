@@ -10,9 +10,16 @@
   font-style: italic;
   letter-spacing: 0.5rem;
   font-variant: small-caps;
+  cursor: default;
 }
 
 .navbarDetail {
   letter-spacing: normal;
   word-spacing: 0.5rem;
+}
+.navbarDetail span {
+  margin: 1rem;
+  font-weight: bolder;
+  font-size: 1.5rem;
+  color: #333;
 }

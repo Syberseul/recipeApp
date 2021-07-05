@@ -16,6 +16,12 @@
   border-radius: 10px;
   border: none;
   outline: none;
+  background-color: #666;
+}
+
+.titleInput::placeholder,
+.ingreInput::placeholder {
+  color: #aaa;
 }
 
 .ingreInput {

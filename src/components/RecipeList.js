@@ -15,7 +15,7 @@ const RecipeList = () => {
       </ul>
     </div>
   ) : (
-    <div>There are no recipes in here</div>
+    <div className="emptyContainer">There are no recipes in here so far...</div>
   );
 };
 

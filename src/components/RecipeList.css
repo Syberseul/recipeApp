@@ -12,3 +12,12 @@
   align-items: center;
   justify-content: first baseline;
 }
+.emptyContainer {
+  margin: 200px 30%;
+  color: #ddd;
+  font-style: italic;
+  font-size: 1.6rem;
+  letter-spacing: 0.5rem;
+  font-variant: small-caps;
+  cursor: default;
+}
