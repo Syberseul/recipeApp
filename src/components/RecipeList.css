@@ -1,0 +1,14 @@
+.listContainer {
+  max-height: 450px;
+  overflow-x: none;
+  overflow-y: auto;
+  margin: 20px;
+  padding: 10px;
+}
+.ulContainer {
+  padding-inline-start: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: first baseline;
+}
