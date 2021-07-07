@@ -11,7 +11,6 @@ const RecipeForm = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    console.log(ingrediants);
     dispatch({ type: "ADD_RECIPE", recipe: { title, ingrediants } });
     setTitle("");
     setIngrediants("");

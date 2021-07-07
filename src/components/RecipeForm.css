@@ -17,6 +17,7 @@
   border: none;
   outline: none;
   background-color: #666;
+  color: #ddd;
 }
 
 .titleInput::placeholder,
@@ -36,7 +37,7 @@
   border-radius: 10px;
   cursor: pointer;
   border: none;
-  color: #333;
+  color: #555;
   font-size: medium;
   font-style: italic;
   font-weight: 500;
@@ -56,7 +57,7 @@
   letter-spacing: 0.1rem;
   box-shadow: 3px 3px rgba(0, 0, 0, 0.5);
   transform: scale(1.2);
-  color: #000;
+  color: #444;
   background-image: linear-gradient(
     to top,
     #b0d7e1,
